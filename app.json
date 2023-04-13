@@ -9,6 +9,8 @@
     "splash": {
       "image": "./assets/splash-bg.png",
       "resizeMode": "cover",
+      "width": "40px",
+      "height": "40px",
       "backgroundColor": "#AFE67F"
     },
     "updates": {

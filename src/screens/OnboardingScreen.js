@@ -77,11 +77,6 @@ const OnboardingScreen = ({ navigation }) => {
         <Text style={styles.createaccountButtonStyle}> Create Account</Text>
       </TouchableOpacity>
 
-      {/* <NavLink
-        style={styles.navlink}
-        routeName="Signin"
-        text="Have an account already? Log in"
-      /> */}
       <View style={{marginTop: 10}}>
         <Text
           style={styles.textTermsStyle}
@@ -137,27 +132,30 @@ const styles = StyleSheet.create({
   },
   buttonStyle: {
     // backgroundColor: '#00b14f',
-    backgroundColor: '#043F7C',
+    backgroundColor: '#9CE570',
     // paddingHorizontal: 100,
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
-    paddingVertical: 15,
-    borderRadius: 15,
+    borderColor: "#6DC637",
+    paddingVertical: 18,
+    borderRadius: 30,
     marginTop: 10,
-    width: '70%',
+    width: '88%',
     alignSelf: 'center',
   },
   createAccountButtonStyle: {
     // backgroundColor: '#00b14f',
-    backgroundColor: '#FB5657',
+    backgroundColor: '#9CE570',
     // paddingHorizontal: 100,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingVertical: 15,
-    borderRadius: 15,
+    borderWidth: 1,
+    borderColor: "#6DC637",
+    paddingVertical: 18,
+    borderRadius: 30,
     marginTop: 10,
-    width: '70%',
+    width: '88%',
     alignSelf: 'center',
   },
   textTermsStyle: {
@@ -167,16 +165,16 @@ const styles = StyleSheet.create({
     width: '80%'
   },
   loginButtonStyle: {
-    fontWeight: 'bold',
+    fontWeight: 500,
     fontSize: 15,
-    color: 'white',
+    color: '#000E24',
     textAlign: 'center',
     width: '120%'
   },
   createaccountButtonStyle: {
-    fontWeight: 'bold',
+    fontWeight: 500,
     fontSize: 15,
-    color: 'white',
+    color: '#000E24',
     textAlign: 'center',
     width: '120%'
   },
