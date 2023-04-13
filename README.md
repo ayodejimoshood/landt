@@ -10,7 +10,7 @@ Welcome Screen               |  Login Screen               | Home Screen
 To work with this project locally, first install all dependecies:
 1. Clone the repo
 ```sh
-git clone https://github.com/fczmedia/woozeee.git
+git clone https://github.com/ayodejimoshood/landt.git
 ```
 2. Install Yarn packages
 ```sh

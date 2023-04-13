@@ -1,27 +1,27 @@
 {
   "expo": {
-    "name": "Woozeee",
-    "slug": "woozeee-app",
+    "name": "Landt",
+    "slug": "landt-pay",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/woozeee-icon.png",
+    "icon": "./assets/landt-icon.png",
     "splash": {
       "image": "./assets/splash-bg.png",
       "resizeMode": "cover",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#AFE67F"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "bundleIdentifier": "com.bahbi.twitterclone",
+      "bundleIdentifier": "com.landt.pay",
       "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
-      "package": "com.bahbi.twitterclone",
+      "package": "com.landt.pay",
       "versionCode": 1,
       "useNextNotificationsApi": true
     }
